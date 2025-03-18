@@ -6,7 +6,7 @@ DOMAIN=bogelstore.me
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 dns=${sub}.bogelstore.me
 CF_ID=bogelxdvpn@gmail.com
-CF_KEY=4af84b0309a1e1d70602126f50efcb7c8b4ed
+CF_KEY=9536e1c5d1d8900dc62c924ac50c600845fa9
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${dns}..."
