@@ -2,9 +2,9 @@
 MYIP=$(wget -qO- icanhazip.com);
 apt install jq curl -y
 #read -p "Masukan Domain (contoh : Bogel)" domen
-DOMAIN=bogelstore.me
+DOMAIN=vpnku.me
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
-dns=${sub}.bogelstore.me
+dns=${sub}.vpnku.me
 CF_ID=bogelxdvpn@gmail.com
 CF_KEY=9536e1c5d1d8900dc62c924ac50c600845fa9
 set -euo pipefail
